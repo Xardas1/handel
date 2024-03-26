@@ -3,3 +3,6 @@ while 1:
 
 def mama_blow():
     return 'cycki'
+
+def jd():
+    return "olek"
