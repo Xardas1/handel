@@ -9,5 +9,5 @@ def jd():
 print ("Łukasz lubi Kalinke")
 
 #Slow live
-
+#Jestes gejem
 #Dupa Tymona
