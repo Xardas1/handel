@@ -5,3 +5,7 @@ def mama_blow():
     return 'cycki'
 
 print ("Łukasz lubi Kalinke")
+
+
+
+#Dupa Tymona
