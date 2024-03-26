@@ -8,6 +8,8 @@ def jd():
     return "olek"
 print ("Łukasz lubi Kalinke")
 
+print("Slow live nie zda z matmy")
+
 #Slow live
 #Jestes gejem
 #Dupa Tymona
