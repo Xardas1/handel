@@ -1,11 +1,13 @@
-while 1:
-    print("elo")
+import numpy as np
+import matplotlib.pyplot as plt
 
-def mama_blow():
-    return 'cycki'
+def calculate_difference():
+    x = np.linspace(-10, 10, 400)
+    y = 10*x + 10
+    above_x = y > 0 
+    below_x = y < 0
+    distance_from_x_axis = np.abs(y)
+    return y[below_x]
 
-print ("Łukasz lubi Kalinke")
 
-
-
-#Dupa Tymona
+print(calculate_difference())
