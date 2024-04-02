@@ -8,4 +8,6 @@ def calculate_difference():
     above_x = y > 0 
     below_x = y < 0
     distance_from_x_axis = np.abs(y)
-    return y[below_x]
+    return distance_from_x_axis[below_x]
+
+print(calculate_difference())
