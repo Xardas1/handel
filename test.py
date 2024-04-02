@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import alpaca_trade_api as tradeapi
+import alpaca_trade_api as tradeapi  
 
 
 API_KEY = "TU BZRYTOSZ DA API KEY"
@@ -12,16 +12,12 @@ api = tradeapi.REST(API_KEY, API_SECRET, API_URL, api_version='v2')
 
 
 api.submit_order(
-    symbol='AAPL' #Firma apple
-    qty=1 # Ile chcemy kupić akcji
-    side='sell' #Czy chcemy sprzedać czy kupuić
-    type='market' #Sposób w jaki chcemy chcemy kupować akcję bzrytosz ogarnię swoją teorią
-    time_in_force='gtc' #Czas trawania ile order będze aktywny zanim wygaśnie
+    symbol='AAPL', #Firma apple
+    qty=1, # Ile chcemy kupić akcji
+    side='sell', #Czy chcemy sprzedać czy kupuić
+    type='market', #Sposób w jaki chcemy chcemy kupować akcję bzrytosz ogarnię swoją teorią
+    time_in_force='gtc', #Czas trawania ile order będze aktywny zanim wygaśnie
 )
-
-
-
-
 
 
 def calculate_difference():
