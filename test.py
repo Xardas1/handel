@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import alpaca_trade_api as tradeapi  
 
 
-API_KEY = "TU BZRYTOSZ DA API KEY"
-API_SECRET = "TU BZRYTOSZ DA API SECRET ZE SWOJEJ STRONY"
+API_KEY = "TU BZRYTOSZ DA API KEY" #CKSSE5EWLMFN36W6UDPN
+API_SECRET = "TU BZRYTOSZ DA API SECRET ZE SWOJEJ STRONY" #gQVlQJsrapDWxELLkHIasQZ7AJj4jQBA3lLLx6wo
 API_URL = "https://api.alpaca.markets" 
 
 
